@@ -7,3 +7,13 @@ https://github.com/matplotlib/cheatsheets (with beginner, intermediate, and gene
 tips versions)
 We havenʼt covered most of whatʼs on the cheatsheets yet, but keep them for your
 reference!
+
+20260603 Class Note
+
+Three important qualities of data visualization:
+Is the visualization pleasing to look at? → Aesthetic
+Does the visualization accurately and honestly present data? → Substantive
+Can we understand what message the maker of the visualization is attempting to
+convey? → Perceptual
+
+Effective visualization depends on intented purpose, audience, and medium.
