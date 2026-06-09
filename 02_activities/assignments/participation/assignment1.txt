@@ -17,3 +17,14 @@ Can we understand what message the maker of the visualization is attempting to
 convey? → Perceptual
 
 Effective visualization depends on intented purpose, audience, and medium.
+
+20260608 Class Note
+
+Reproducibility is ethical and practical.
+
+Comment the code with # or markdown in Jupiter notebook.
+Comments include: what has been tried, different versions, help with future or others' understanding
+
+FAIR principles: findability, accessibility, interoperability, reusability
+Reproducibility and reusability are complementary
+Reproducibility (same input data) vs replicability (across studies)
