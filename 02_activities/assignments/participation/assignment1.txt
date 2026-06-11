@@ -28,3 +28,19 @@ Comments include: what has been tried, different versions, help with future or o
 FAIR principles: findability, accessibility, interoperability, reusability
 Reproducibility and reusability are complementary
 Reproducibility (same input data) vs replicability (across studies)
+
+20260610 Class Note
+
+‘Flattening the Curve’ Activity: In what ways is this data visualization inaccessible, and to whom?
+1. There is no quantification or tick marks on the x-axis; whether this level of detail is necessary may depend on the target audience.
+2. Highlighting in red may not be accessible to individuals with red color vision deficiency.
+3. The grey shading of the peak is too subtle, making it difficult to distinguish differences.
+4. The text is not accessible to screen readers.
+
+So how do we incorporate these accessibility goals into our data visualization
+practices? - Mark size, colors, brightness and contrast, text (including labels, legends, font, typeface, spacing)
+
+To ensure that our data visualizations are accessible to people using a screen reader
+or unable to see the image, we include alternate text (alt-text)
+
+Accessibility: Cross-browser functionality, Cost (Open Access or Creative Commons licenses)
