@@ -1,20 +1,16 @@
 20260601 Class Note
 
 Resources: Matplotlib Cheatsheets
-https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_Matplotlib_Ch
-eat_Sheet.pdf
-https://github.com/matplotlib/cheatsheets (with beginner, intermediate, and general
-tips versions)
-We havenʼt covered most of whatʼs on the cheatsheets yet, but keep them for your
-reference!
+https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_Matplotlib_Cheat_Sheet.pdf
+https://github.com/matplotlib/cheatsheets (with beginner, intermediate, and general tips versions)
+We havenʼt covered most of whatʼs on the cheatsheets yet, but keep them for your reference!
 
 20260603 Class Note
 
 Three important qualities of data visualization:
 Is the visualization pleasing to look at? → Aesthetic
 Does the visualization accurately and honestly present data? → Substantive
-Can we understand what message the maker of the visualization is attempting to
-convey? → Perceptual
+Can we understand what message the maker of the visualization is attempting to convey? → Perceptual
 
 Effective visualization depends on intented purpose, audience, and medium.
 
@@ -37,10 +33,63 @@ Reproducibility (same input data) vs replicability (across studies)
 3. The grey shading of the peak is too subtle, making it difficult to distinguish differences.
 4. The text is not accessible to screen readers.
 
-So how do we incorporate these accessibility goals into our data visualization
-practices? - Mark size, colors, brightness and contrast, text (including labels, legends, font, typeface, spacing)
+So how do we incorporate these accessibility goals into our data visualization practices? 
+- Mark size, colors, brightness and contrast, text (including labels, legends, font, typeface, spacing)
 
-To ensure that our data visualizations are accessible to people using a screen reader
-or unable to see the image, we include alternate text (alt-text)
+To ensure that our data visualizations are accessible to people using a screen reader or unable to see the image, we include alternate text (alt-text)
 
 Accessibility: Cross-browser functionality, Cost (Open Access or Creative Commons licenses)
+
+20260615 Class Note
+
+Data visualization for advocacy
+Three elements of persuasion: rational appeal, moral appeal, and emotional appeal
+
+Ship Activity
+Rational appeal: using quantitive data/specific number to present how people were stored in the ship.
+Moral appeal: schematic crouched movement to highlight inhuman conditions.
+Emotional appeal: invoke anger and sympathy.
+
+Two functions of data visualization for advocacy:
+Presentation - describing and depicting the facts
+Representation - subjectively depicting ideas using metaphor, analogy, and allegory
+
+Activity: Static vs. dynamic data visualization (also included in the .ipynb file markdown)
+left: more accurate to compare, simple bar plot, easier to undertand
+right interactive graph: larger datasets, allow audience to explore themselves
+
+Dynamic data visualizations prons:
+Can provide information that cannot be obtained from static charts
+Are useful for viewing individual-level data
+Allow audiences to explore the data in-depth, supporting transparency and reproducibility
+Can increase interest and engagement in research outputs
+
+Dynamic data visualizations cons:
+Make it more challenging to tell a single clear story or communicate a clear message
+Can be confusing or overwhelming for audiences
+Present access and sharing challenges (e.g. an image can be viewed in print, online, on mobile, but a dynamic viz might need to be hosted on a particular platform or software)
+
+Elements of dynamic data visualizations:
+Spatial elements → Position and quantity (e.g. number of data points on a plot, scales of axes)
+Retinal elements → Size, brightness, rotation, patterning, shape, and colour
+
+Types of changes:
+Identity-preserving
+- Maintain associations between visual elements and underlying data
+- Some part of a representation stays constant (e.g., keeping the relative position of data points constant)
+- Important for comparing across time/snapshots
+Transitional
+- Maintain some associations, and limit changes to known values
+- New elements may be added or changed
+- Balance flexibility with the ability to compare over short periods of time/small changes between snapshots
+Immediate
+- Generally do not preserve associations
+- Create and delete elements, alter scales, remap variables every time a new ‘snapshot’ is created
+- Does not allow for comparison across time/snapshots
+
+Activity continued:
+no clear boundary, transitional when among different keywords, immediate because x and y axis can change
+Saptial changes
+If redesign, reordering the y-axis when comparing different words
+
+
